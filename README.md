@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Getting Started with Docker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Build the image and fire up the container:
+
+## Develop
+
+### `docker-compose up -d --build`
+
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser. The page will reload if you make edits.
+
+Stop container:
+
+### `docker-compose stop`
+
+## Production
+
+### `docker-compose -f docker-compose.prod.yml up -d --build`
+
+Open [http://localhost:1337](http://localhost:1337) to view it in the browser.
+
+# Getting Started with Create React App
 
 ## Available Scripts
 

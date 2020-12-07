@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  rick-and-morty-case-prod:
+    container_name: rick-and-morty-case-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - '1337:80'
