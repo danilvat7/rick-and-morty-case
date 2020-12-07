@@ -1,0 +1,30 @@
+.character-info {
+  img {
+    width: 100%;
+  }
+}
+.info {
+  &--heading {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 35px;
+      line-height: 37px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  &--episodes {
+    h3 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}
